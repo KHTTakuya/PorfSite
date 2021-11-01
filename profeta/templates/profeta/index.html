@@ -1,0 +1,95 @@
+{% extends 'profeta/base.html' %}
+{% load static %}
+
+{% block title %}index{% endblock %}
+{% block customcss %}
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+{% endblock %}
+
+{% block content %}
+    <div class="main-title">
+    <h2>本日(0000/00/00)予想</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 fw-normal">阪神 1R</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">１番： シャフリアール</h2>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 fw-normal">東京 1R</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">１番： シャフリアール</h2>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 fw-normal">福島 1R</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">１番： シャフリアール</h2>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="main-title">本日分結果</h2>
+    </div>
+    {# 各レースごとにリンクをつける。#}
+    <div class="row row-cols-1 row-cols-md-3 mb-2">
+        <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 fw-normal text-center">阪神</h4>
+              </div>
+              <div class="my-0 im-mb">
+                <h3 class="card-title border card-left">1R</h3>
+                <h3 class="card-title border card-left">2R</h3>
+                <h3 class="card-title border card-left">3R</h3>
+                <h3 class="card-title border card-left">4R</h3>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 fw-normal text-center">東京</h4>
+              </div>
+              <div class="ml-2">
+                <h3 class="card-title border card-left">1R</h3>
+                <h3 class="card-title border card-left">2R</h3>
+                <h3 class="card-title border card-left">3R</h3>
+                <h3 class="card-title border card-left">4R</h3>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 fw-normal text-center">福島</h4>
+              </div>
+              <div>
+                <h3 class="card-title border card-left">1R</h3>
+                <h3 class="card-title border card-left">2R</h3>
+                <h3 class="card-title border card-left">3R</h3>
+                <h3 class="card-title border card-left">4R</h3>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div>
+     <ul>
+         <li>保証はしかねる。についてなど注意書き</li>
+     </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,21 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navbar-right {
+  margin: 0 0 0 auto;
+}
+
+.navbar-bold {
+  font-weight: bold;
+}
+
+

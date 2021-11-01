@@ -1,0 +1,12 @@
+.main-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.card-title {
+    margin-bottom: 0; !important;
+}
+
+.card-left {
+    padding-left: 15px;
+}
